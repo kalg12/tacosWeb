@@ -7,14 +7,14 @@ body {
 }
 
 header {
-  background: #ff6347;
+  background: #afac01;
   color: white;
   padding: 1rem 0;
   text-align: center;
 }
 
 header h1 {
-  margin: 0;
+  margin: 40px;
 }
 
 nav ul {
@@ -81,19 +81,19 @@ button:hover {
 /* Estilos específicos para dispositivos móviles */
 @media (max-width: 600px) {
   body {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   header h1 {
-      font-size: 24px;
+    font-size: 24px;
   }
 
   nav ul li {
-      display: block;
-      margin: 10px 0;
+    display: block;
+    margin: 10px 0;
   }
 
   section {
-      padding: 15px;
+    padding: 15px;
   }
 }
